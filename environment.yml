@@ -1,0 +1,25 @@
+name: linkpred
+channels:
+  - pyg
+  - pytorch
+  - huggingface
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10.6
+  - jupyter=1.0
+  - matplotlib=3.4.3
+  - networkx=2.8.4
+  - numpy=1.23.3
+  - pandas=1.5.1
+  - scipy=1.9.3
+  - scikit-learn=1.1.3
+  - seaborn
+  - tqdm=4.64.1
+  - mkl < 2022
+  - pytorch=1.13.1
+  - torchvision
+  - pyg=2.3.0
+  - transformers=4.24.0
+  - captum
+  - pip
